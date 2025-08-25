@@ -1,12 +1,61 @@
-# React + Vite
+# 👨‍🍳 TastyTrove
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered recipe suggestion web application built with **Vite + React**.  
+Just provide the ingredients you have, and the app uses **Mistral AI (via Hugging Face Inference API)** to generate creative recipe ideas you can cook right away!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔹 Enter ingredients you have at home
+- 🔹 Get instant recipe suggestions from **Mistral AI via Hugging Face**
+- 🔹 Clean and responsive UI built with **React + Vite**
+- 🔹 Lightweight and fast
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite
+- **AI Model:** Mistral AI (Hugging Face Inference API)
+
+---
+
+## ⚙️ Installation & Setup
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- **[Git](https://git-scm.com/)**
+- **[Node.js](https://nodejs.org/en)**
+- **[npm](https://www.npmjs.com/)** _(Node Package Manager)_
+
+**Cloning the Repository**
+
+```bash
+git https://github.com/Shivamkr0724/TastyTrove.git
+cd TastyTrove
+```
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+VITE_HF_ACCESS_TOKEN=your_api_key_here
+```
+
+Replace the placeholder values with your actual credentials by signing up on the **[HuggingFace](https://huggingface.co/)** dashboard.
+
+**Running the Project**
+
+```bash
+npm run dev
+```
