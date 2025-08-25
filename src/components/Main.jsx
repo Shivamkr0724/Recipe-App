@@ -4,7 +4,7 @@ import ClaudeRecipe from "./ClaudeRecipe"
 import { getRecipeFromMistral } from "../ai"
 
 export default function Main() {
-    const [ingredients, setIngredients] = React.useState(["Chicken","all the main spices", "corn","heavy cream"])
+    const [ingredients, setIngredients] = React.useState([])
     
     const [recipe, setRecipe] = React.useState("")
 
